@@ -1,0 +1,100 @@
+/* Css reste */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Navigation Content */
+
+
+/* Navigation: Logo section */
+#navbar #logo {
+    margin: 0px;
+}
+#navbar #logo img {
+    height: 70px;
+    width: 70px;
+    border-radius: 20px;
+}
+/* Navigation List section */
+#navbar {
+    display: flex;
+    position: relative;
+
+}
+#navbar ul {
+    display: flex;
+
+}
+#navbar ul li {
+    list-style: none;
+}
+#navbar ul li a {
+    text-decoration: none;
+    margin-top: 25px;
+    margin-left: 30px;
+    display: block;
+    color: azure;
+}
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.5;
+}
+/* Navigation search Section */
+#navbar .search {
+    position: absolute;
+    right: 0px;
+    margin-top: 25px;
+    margin-right: 15px;
+}  
+#navbar .search input {
+    padding: 5px 10px; 
+    border-radius: 10px;
+}
+/* navbar hover */
+#navbar ul li a:hover {
+    background-color: rgb(123, 143, 157);
+    font-size: 20px;
+    border-radius: 6px;
+    padding: 4px 7px;
+}
+/* Hover for search */
+#navbar .search:hover {
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+        transition-property: calc(10);
+}
+
+/* Section Content */
+#main 
+{
+    display: flex;
+    flex-direction: column;
+    margin:20px 15px;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+#main::before 
+{
+    content: "";
+    background: url('/Photo/pexels-junior-teixeira-2047905.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    opacity: 0.6;
+
+}
+#main .btn 
+{
+    padding: 4px 8px;
+    color: blue;
+}

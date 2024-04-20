@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            text-align: center;
+            font-size: 50px;
+            display: none;
+        }
+        @media(min-width:800px)
+        {
+            #box1{
+                display: block;
+                background-color: aquamarine;
+            }
+        }
+        @media(max-width:799px) and (min-width:400px) {
+
+            #box2{
+                display: block;
+                background-color: bisque;
+            }
+        }
+        @media(max-width:399px) {
+
+                 #box3{
+                     display: block;
+                     background-color:chocolate;
+                }
+        }
+        @media(max-width:199px) {
+
+                #box2{
+                     display: block;
+                     background-color: bisque;
+                }
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">Iphone</div>
+        <div class="box" id="box2">Samsung</div>
+        <div class="box" id="box3">Nokia</div>
+        <div class="box" id="box4">Oppo</div>
+    </div>
+</body>
+</html>

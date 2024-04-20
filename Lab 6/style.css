@@ -1,0 +1,22 @@
+.para {
+    font-size: 30px;
+    color: red;
+    background-color: green;
+    box-sizing: border-box;
+
+}
+#heading1 {
+    font-size: 50px;
+    border: 2px red dashed;
+    color: red;
+
+}
+strong {
+    color: blue;
+    border: 3px red dotted;
+
+}
+img {
+    width: 500px;
+    height: 400px;
+}

@@ -1,0 +1,60 @@
+/* CSS reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    border: 2px solid green;
+    display: flex;
+    height: 100px;
+    
+}
+.box{
+    border: 2px solid red;
+    height: 150px;
+    width: 150px;
+    margin: 0px 10px;
+
+}
+/* % types of position in css 
+1. Static position
+--It is by default position
+2. Relative position
+--it change with respect to its initial position
+3. Abso;ute position
+--It change with respect to its parent position
+4. Fixed Position
+--
+5. Sticky position
+*/
+/* Satatic example */
+#box3{
+    /* position: static;
+    top: 20px;
+    left: 40px; */
+}
+/* relative example */
+#box2 {
+    /* position: relative;
+    top: 20px;
+    left: 0px;
+    right: 0px; */
+}
+#box1
+{
+    /* position: absolute;
+    left:20px
+    top: 20px; */
+
+    /* position fixed
+    position: fixed;
+    right: 10px; */
+
+    /* Positon Stikey
+    position: sticky;
+    top: 5px; */
+
+
+}
+
+
